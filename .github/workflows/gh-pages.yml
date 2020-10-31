@@ -21,9 +21,7 @@ jobs:
           node-version: '12'
           check-latest: true
       - run: ls -lah
-      - run: cd themes/geekblog
-      - run: npm install
-      - run: gulp default
+      - run: cd themes/geekblog && npm install && gulp default
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
