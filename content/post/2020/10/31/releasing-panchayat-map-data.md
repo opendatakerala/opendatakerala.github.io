@@ -1,7 +1,7 @@
 ---
 title: "Releasing Panchayath Map Data"
 date: 2020-10-31T10:24:15+05:30
-draft: true
+draft: false
 
 weight:  1
 
