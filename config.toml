@@ -46,7 +46,7 @@ enableGitInfo = true
   term = ["HTML", "ATOM"]
 
 [params]
-  subtitle = "OpenData Sets related to Kerala & Malayalam"
+  subtitle = "Datasets related to Kerala & Malayalam"
   description = "A Network of Institutions and Individuals to Promotes OpenData in Kerala"
   keywords = []
   images = []
