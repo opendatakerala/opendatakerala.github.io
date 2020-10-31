@@ -1,6 +1,6 @@
 baseURL = "http://opendatakerala.org/"
 languageCode = "en-us"
-title = "OpenDataKerala"
+title = "Open Data Kerala"
 theme = "geekblog"
 
 # Required to get well formatted code blocks
@@ -46,8 +46,8 @@ enableGitInfo = true
   term = ["HTML", "ATOM"]
 
 [params]
-  subtitle = "A Network of Institutions and Individuals to Promotes OpenData in Kerala"
-  description = "A Index of OpenData Sets related to Kerala & Malayalam"
+  subtitle = "OpenData Sets related to Kerala & Malayalam"
+  description = "A Network of Institutions and Individuals to Promotes OpenData in Kerala"
   keywords = []
   images = []
 
