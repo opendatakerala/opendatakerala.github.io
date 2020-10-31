@@ -10,12 +10,17 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
+        name: "checkout source code"
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+    
+      - name: "setup npm"
+        uses: actions/setup-node@v2-beta
+        with:
           node-version: '12'
           check-latest: true
+      - run: ls -lah
       - run: cd themes/geekblog
       - run: npm install
       - run: gulp default
