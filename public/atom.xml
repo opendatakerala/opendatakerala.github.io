@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html"><![CDATA[Open Data Kerala]]></title>
+    
+        <subtitle type="html"><![CDATA[Open data et.al]]></subtitle>
+    
+    
+    
+            <link href="http://opendatakerala.org/" rel="alternate" type="text/html" title="HTML" />
+            <link href="http://opendatakerala.org/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2020-10-31T10:21:40+05:30</updated>
+    
+    <id>http://opendatakerala.org/</id>
+</feed>
