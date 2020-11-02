@@ -1,5 +1,5 @@
 ---
-title: "Releasing LSGD Kerala Map Data"
+title: "Releasing LSG Kerala Map Data"
 date: 2020-10-31T10:24:15+05:30
 draft: false
 
