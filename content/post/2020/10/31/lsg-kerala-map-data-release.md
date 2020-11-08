@@ -17,7 +17,6 @@ geekblogAnchor: true
 ---
 OSM Kerala Community Completed an effort of make a free map on boundary of Local Bodies in Kerala. Find more documentation in Wiki https://wiki.openstreetmap.org/wiki/Local_Bodies_in_Kerala
 
-[Easy Data Download Link (Github)](https://github.com/opendatakerala/lsg-kerala-data/releases/tag/1.0.0)
+[Easy Data Download Link (Github)](https://github.com/opendatakerala/lsg-kerala-data/releases)
 
-![](https://i.imgur.com/VMXb8gO.jpg)
-LSG boundary map with national highway; Map Visualised by Arjun Gangadharan, © OpenStreetMap contributor 
+![LSG boundary map with national highway; Map Visualised by Arjun Gangadharan, © OpenStreetMap contributor](https://i.imgur.com/VMXb8gO.jpg "LSG boundary map with national highway; Map Visualised by Arjun Gangadharan, © OpenStreetMap contributor")
