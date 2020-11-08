@@ -7,7 +7,7 @@ weight:  1
 
 authors: ["open-data-observer"]
 
-tags: ["OpenStreetMap", "Kerala Map", "Geospatial", "LSGI", OSM Kerala", "Wikidata"]
+tags: ["OpenStreetMap", "Kerala Map", "Geospatial", "LSGI", "OSM Kerala", "Wikidata"]
 
 geekblogToC: 3
 
