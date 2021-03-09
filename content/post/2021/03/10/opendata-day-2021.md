@@ -1,7 +1,8 @@
 ---
-title: "Opendata Day 2021"
+title: "anel Discussion - OpenData Day 2021"
 date: 2021-03-10T00:37:02+05:30
-draft: true
+draft: false
+
 weight:  1
 
 authors: ["open-data-observer"]
