@@ -1,5 +1,5 @@
 ---
-title: "anel Discussion - OpenData Day 2021"
+title: "Panel Discussion - OpenData Day 2021"
 date: 2021-03-10T00:37:02+05:30
 draft: false
 
