@@ -1,8 +1,7 @@
 ---
-title: " Panel Discussion - OpenData Day 2021"
-date: 2021-03-10T0:54:34+05:30
-draft: false
-
+title: "Opendata Day 2021"
+date: 2021-03-10T00:37:02+05:30
+draft: true
 weight:  1
 
 authors: ["open-data-observer"]
