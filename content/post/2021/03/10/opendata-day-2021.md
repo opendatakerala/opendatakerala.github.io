@@ -19,7 +19,9 @@ geekblogAnchor: true
 
 OpenDataKerala Community Conducting a Panel Discussion on OpenData Week 2021. Event scheduled at 10 March 8PM.
 
-Youtube Live Streaming
+[Youtube Live](https://youtu.be/w5S0P8NwyUY) Streaming
+
+{{< youtube w5S0P8NwyUY >}}
 
 Panelists
 1. **Dr. Sabarish K** , Chief Data Officer, Government of Kerala.
