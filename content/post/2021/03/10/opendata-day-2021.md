@@ -15,7 +15,10 @@ geekblogHidden: false
 
 geekblogAnchor: true
 ---
-OpenDataKerala Community planning a Panel Discussion on OpenData Week 2021. Event scheduled at 10 March 8PM.
-More details add soon including the participation link and streaming.
+![](https://i.imgur.com/E2G9dHR.png)
 
-Etherpad Link https://etherpad.wikimedia.org/p/odd2021_odk
+OpenDataKerala Community planning a Panel Discussion on OpenData Week 2021. Event scheduled at 10 March 8PM.
+
+URL : https://business.vconsol.com/viewer/8651524440
+Conference ID: 8651524440
+Password : 296314
