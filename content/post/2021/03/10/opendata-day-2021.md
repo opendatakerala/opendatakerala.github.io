@@ -35,11 +35,7 @@ Panelists
 9. **Arjun Gangadharan**, GeoMinds
 ---
 
-URL : https://business.vconsol.com/viewer/8651524440
 
-Conference ID: 8651524440
-
-Password : 296314
 
 ---
 ![](https://i.imgur.com/TOAnlNJ.png)
