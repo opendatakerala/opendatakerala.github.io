@@ -16,4 +16,6 @@ geekblogHidden: false
 geekblogAnchor: true
 ---
 
-OpenDataKerala Community Conducting a Clubhouse Discussion on OpenData Week 2021. Event scheduled at 17 July 6.30pm.
+OpenDataKerala Community Conducting a Clubhouse Discussion scheduled at 17 July 6.30pm. [Join Here](https://www.clubhouse.com/event/PD5z4kj4)
+![](https://i.imgur.com/IATge8u.jpg)
+
