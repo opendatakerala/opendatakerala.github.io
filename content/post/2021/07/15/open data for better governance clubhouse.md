@@ -1,6 +1,6 @@
 ---
 title: "OpenStreetMap and OpenData for Better Governance"
-date: 2021-007-15T00:37:02+05:30
+date: 2021-07-15T00:37:02+05:30
 draft: false
 
 weight:  1
