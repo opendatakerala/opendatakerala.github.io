@@ -16,6 +16,7 @@ geekblogHidden: false
 geekblogAnchor: true
 ---
 It has been six months after India began the world's largest vaccination drive. The vaccination for public in india started during the 2021 March 2nd week onwards. Open Data Kerala is happy to release the historical Covid-19 vaccination dataset of Kerala state’s and district's under an open license from the data published on the CoWIN dashboard. The tabular dataset includes the total number of doses of vaccine admistrated till date and the total number of vaccine types admistrated. The dataset is released at Open Data Kerala github page.
+![](https://i.imgur.com/qbdihNu.png)
 
 The data is published in CSV format which is a tabular data form that is structured into rows, each of which contains information about COVID-19 vaccination in Kerala. These tabular data sets are also added to Wikimedia commons that allows to use them to create automatic tables, lists, and graphs in Wikimedia projects like Wikipedia.[1]
 
