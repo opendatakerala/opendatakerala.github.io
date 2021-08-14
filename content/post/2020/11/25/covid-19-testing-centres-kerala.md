@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 Testing Centres of Kerala mapped"
+title: "COVID-19 Testing Centres of Kerala Mapped"
 date: 2020-11-25T9:54:34+05:30
 draft: false
 
