@@ -35,7 +35,7 @@ On 05/09/2021 afternoon, I got a phone call from my superior officer Sri. Abdul 
 
 He told me that the epicentre of the Nipah outbreak was sent to me in WhatsApp, and asked whether I can draw a map containing the wards around the 3 kilometers proximity around it.
 
-I responded that I can do it with the [panchayat boundaries](https://opendatakerala.org/post/2020/10/31/lsg-kerala-map-data-release/), and I am not sure whether I get the ward boundaries for this. I suddenly remembered after saying this, that [Heinz](https://www.openstreetmap.org/user/Heinz_V) the mapper from Germany, and others have done the ward [boundary data in the OpenStreetMap](https://www.thehindu.com/news/national/kerala/collaborative-mapping-of-local-body-wards-of-kerala-under-way/article34695550.ece). I told him that I would try, and started working in QGIS.
+I responded that I can do it with the [panchayat boundaries](https://opendatakerala.org/post/2020/10/31/lsg-kerala-map-data-release/), and I am not sure whether I get the ward boundaries for this. I suddenly remembered after saying this, that [Heinz](https://www.openstreetmap.org/user/Heinz_V) the mapper from Germany, and others in OSM Kerala have done the ward [boundary data in the OpenStreetMap](https://www.thehindu.com/news/national/kerala/collaborative-mapping-of-local-body-wards-of-kerala-under-way/article34695550.ece). I told him that I would try, and started working in QGIS.
 
 I had the panchayat boundary data with me already, which I have added to the map.
 
@@ -45,7 +45,7 @@ Marked the epicentre in the map, and created 3 kilometers buffer zone around it 
  
 Composed everything in Map composer and drawn the map, and sent it to the panchayat deputy director by evening through WhatsApp. Also sent a spreadsheet containing the details of the wards included inside that buffer zone and went to sleep.
 ![](https://i.imgur.com/XlZ2KuS.jpg)
->Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre by <a href="https://commons.wikimedia.org/wiki/File:Nipah_outbreak_2021_Kozhikode_-_3_kilometers_buffer_zone_map_around_the_epicentre.pdf">Jaisuvyas</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+>[Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre](https://commons.wikimedia.org/wiki/File:Nipah_outbreak_2021_Kozhikode_-_3_kilometers_buffer_zone_map_around_the_epicentre.pdf) by <a href="https://commons.wikimedia.org/wiki/User:Jaisuvyas">Jaisen Nedumpala (User:Jaisuvyas)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 The next day on 06/09/2021, I have seen the second proceedings from the district collector in the WhatsApp group, which was relatively clear and easy to implement.[2]
   
