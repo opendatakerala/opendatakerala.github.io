@@ -45,7 +45,7 @@ Marked the epicentre in the map, and created 3 kilometers buffer zone around it 
  
 Composed everything in Map composer and drawn the map, and sent it to the panchayat deputy director by evening through WhatsApp. Also sent a spreadsheet containing the details of the wards included inside that buffer zone and went to sleep.
 ![](https://i.imgur.com/XlZ2KuS.jpg)
->Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre by <a href="https://commons.wikimedia.org/wiki/File:Nipahoutbreak2021Kozhikode-3kilometersbufferzonemaparoundtheepicentre.pdf">Jaisuvyas</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+>Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre by <a href="https://commons.wikimedia.org/wiki/File:Nipah_outbreak_2021_Kozhikode_-_3_kilometers_buffer_zone_map_around_the_epicentre.pdf">Jaisuvyas</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 The next day on 06/09/2021, I have seen the second proceedings from the district collector in the WhatsApp group, which was relatively clear and easy to implement.[2]
   
@@ -59,7 +59,7 @@ Special thanks to Heinz and fellow OpenStreetMap contributors (for tirelessly in
 
 ---
 
-Jaison Nedumbala
+Jaisen Nedumpala
 7-Sep-2021
 
 ---
