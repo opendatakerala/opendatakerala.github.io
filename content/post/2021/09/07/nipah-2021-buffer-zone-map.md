@@ -21,21 +21,29 @@ I too knew about the [Nipah epidemic 2021 outbreak](https://en.wikipedia.org/wik
 
 I am on quarantine and medication at home, being a panchayat secretary without any official charges now because I am tested positive with Covid19 along with all of my family members.
 
-I have seen the first proceedings related to this, issued by the [district collector](https://kozhikode.nic.in/collectorate/) as the chairman of the district disaster management authority, in the WhatsApp group of local authorities secretaries on 05/09/2021.[1] 
-![](https://i.imgur.com/ysdvTAF.jpg)
+I have seen the first proceedings related to this, issued by the [district collector](https://kozhikode.nic.in/collectorate/) as the chairman of the district disaster management authority, in the WhatsApp group of local authorities secretaries on 05/09/2021.[1]
+
+<a title="https://www.myupchar.com/en, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:How_the_Nipah_Virus_spreads.png"><img width="512" alt="How the Nipah Virus spreads" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/How_the_Nipah_Virus_spreads.png/512px-How_the_Nipah_Virus_spreads.png"></a>
+>How the Nipah Virus spreads by <a href="https://commons.wikimedia.org/wiki/File:How_the_Nipah_Virus_spreads.png">https://www.myupchar.com/en</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 That was the proceedings/order which declares containment zones and imposing restrictions in the [Chathamangalam grama panchayat](https://en.wikipedia.org/wiki/Chathamangalam) as a whole where the [Nipah outbreak](https://en.wikipedia.org/wiki/Nipah_virus_infection) was reported and in the adjacent wards of [Mukkam municipality](https://en.wikipedia.org/wiki/Mukkam) and [Kodiyathur grama panchayat](https://en.wikipedia.org/wiki/Kodiyathur), those lie within the 3 kilometers proximity.
 
 Viewing that proceedings, I became doubtful that how the concerned local authority secretaries would enforce that order assessing those vague areas, because the areas to be the restrictions to be imposed aren't clearly defined in it. Because I also am a panchayat secretary who bound to implement such orders.
 
+<a title="Reaid Hossain, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg"><img width="512" alt="বাদুড়" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg/512px-%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg"></a>
+>Roosting batsby <a href="https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg">Reaid Hossain</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+> 
 If the orders are much clear, the implementation would be easy, leaving no space for different interpretations. 
 
 On 05/09/2021 afternoon, I got a phone call from my superior officer Sri. Abdul Latheef - the Panchayat deputy director, Kozhikode. 
-![](https://i.imgur.com/LmjFQ3k.png)
+
 
 He told me that the epicentre of the Nipah outbreak was sent to me in WhatsApp, and asked whether I can draw a map containing the wards around the 3 kilometers proximity around it.
 
 I responded that I can do it with the [panchayat boundaries](https://opendatakerala.org/post/2020/10/31/lsg-kerala-map-data-release/), and I am not sure whether I get the ward boundaries for this. I suddenly remembered after saying this, that [Heinz](https://www.openstreetmap.org/user/Heinz_V) the mapper from Germany, and others in OSM Kerala have done the ward [boundary data in the OpenStreetMap](https://www.thehindu.com/news/national/kerala/collaborative-mapping-of-local-body-wards-of-kerala-under-way/article34695550.ece). I told him that I would try, and started working in QGIS.
+
+![](https://i.imgur.com/NS0MhFN.png)
+> OpenStreetMap Kerala Community Logo 
 
 I had the panchayat boundary data with me already, which I have added to the map.
 
@@ -48,7 +56,7 @@ Composed everything in Map composer and drawn the map, and sent it to the pancha
 >[Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre](https://commons.wikimedia.org/wiki/File:Nipah_outbreak_2021_Kozhikode_-_3_kilometers_buffer_zone_map_around_the_epicentre.pdf) by <a href="https://commons.wikimedia.org/wiki/User:Jaisuvyas">Jaisen Nedumpala (User:Jaisuvyas)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 The next day on 06/09/2021, I have seen the second proceedings from the district collector in the WhatsApp group, which was relatively clear and easy to implement.[2]
-  
+![](https://i.imgur.com/LmjFQ3k.png)
 I knew from the WhatsApp group itself, that an online meeting was conducted with the participation of the presidents/chairman and secretaries of those panchayats and municipality, and further actions were planned accordingly.
 
 I was just saying that, even if maps aren't the only solution for everything, the ability of maps is remarkable in bringing clarity to the important matters related to administrative processes.
@@ -58,12 +66,10 @@ So, we should effectively utilise these kinds of possibilities of maps.
 Special thanks to Heinz and fellow OpenStreetMap contributors (for tirelessly integrating the ward level data of Kerala to the OpenStreetMap). We owe them very much.
 
 ---
-
-Jaisen Nedumpala
+by Jaisen Nedumpala
 7-Sep-2021
 
 ---
-
 Ref:-
-1. Proceedings of DC dated 05/09/2021 <add the link to the proceedings of dc dated 05/09/2021>
-2. Proceedings of DC dated 06/09/2021 <add the link to the proceedings of dc dated 06/09/2021>
+1. [Proceedings of DC dated 05/09/2021](https://archive.org/details/nipha-kozhikkode-dc-05-sep-2021) 
+2. [Proceedings of DC dated 06/09/2021](https://archive.org/details/nipha-kozhikkode-dc-06-sep-2021)
