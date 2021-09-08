@@ -42,7 +42,7 @@ He told me that the epicentre of the Nipah outbreak was sent to me in WhatsApp, 
 
 I responded that I can do it with the [panchayat boundaries](https://opendatakerala.org/post/2020/10/31/lsg-kerala-map-data-release/), and I am not sure whether I get the ward boundaries for this. I suddenly remembered after saying this, that [Heinz](https://www.openstreetmap.org/user/Heinz_V) the mapper from Germany, and others in OSM Kerala have done the ward [boundary data in the OpenStreetMap](https://www.thehindu.com/news/national/kerala/collaborative-mapping-of-local-body-wards-of-kerala-under-way/article34695550.ece). I told him that I would try, and started working in QGIS.
 
-![](https://i.imgur.com/NS0MhFN.png)
+![](https://i.imgur.com/j5SINkZ.png)
 > OpenStreetMap Kerala Community Logo 
 
 I had the panchayat boundary data with me already, which I have added to the map.
