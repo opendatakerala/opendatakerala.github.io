@@ -57,9 +57,13 @@ So, we should effectively utilise these kinds of possibilities of maps.
 
 Special thanks to Heinz and fellow OpenStreetMap contributors (for tirelessly integrating the ward level data of Kerala to the OpenStreetMap). We owe them very much.
 
+---
+
 Jaison Nedumbala
 7-Sep-2021
 
-Ref:
-[1] <add the link to the proceedings of dc dated 05/09/2021>
-[2] <add the link to the proceedings of dc dated 06/09>
+---
+
+Ref:-
+1. Proceedings of DC dated 05/09/2021 <add the link to the proceedings of dc dated 05/09/2021>
+2. Proceedings of DC dated 06/09/2021 <add the link to the proceedings of dc dated 06/09/2021>
