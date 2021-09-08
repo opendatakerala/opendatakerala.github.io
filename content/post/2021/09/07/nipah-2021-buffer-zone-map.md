@@ -32,7 +32,8 @@ Viewing that proceedings, I became doubtful that how the concerned local authori
 
 <a title="Reaid Hossain, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg"><img width="512" alt="বাদুড়" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg/512px-%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg"></a>
 >Roosting batsby <a href="https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A1%E0%A6%BC.jpg">Reaid Hossain</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
-> 
+
+
 If the orders are much clear, the implementation would be easy, leaving no space for different interpretations. 
 
 On 05/09/2021 afternoon, I got a phone call from my superior officer Sri. Abdul Latheef - the Panchayat deputy director, Kozhikode. 
@@ -52,11 +53,13 @@ I found the location of the Nipah epicentre in OpenStreetMap. Using the [QuickOS
 Marked the epicentre in the map, and created 3 kilometers buffer zone around it using the Buffer function present in Geoprocessing Tools.
  
 Composed everything in Map composer and drawn the map, and sent it to the panchayat deputy director by evening through WhatsApp. Also sent a spreadsheet containing the details of the wards included inside that buffer zone and went to sleep.
+
 ![](https://i.imgur.com/XlZ2KuS.jpg)
 >[Nipah outbreak 2021 Kozhikode - 3 kilometers buffer zone map around the epicentre](https://commons.wikimedia.org/wiki/File:Nipah_outbreak_2021_Kozhikode_-_3_kilometers_buffer_zone_map_around_the_epicentre.pdf) by <a href="https://commons.wikimedia.org/wiki/User:Jaisuvyas">Jaisen Nedumpala (User:Jaisuvyas)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 The next day on 06/09/2021, I have seen the second proceedings from the district collector in the WhatsApp group, which was relatively clear and easy to implement.[2]
 ![](https://i.imgur.com/LmjFQ3k.png)
+
 I knew from the WhatsApp group itself, that an online meeting was conducted with the participation of the presidents/chairman and secretaries of those panchayats and municipality, and further actions were planned accordingly.
 
 I was just saying that, even if maps aren't the only solution for everything, the ability of maps is remarkable in bringing clarity to the important matters related to administrative processes.
