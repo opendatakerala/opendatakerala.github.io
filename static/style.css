@@ -62,3 +62,18 @@ footer {
     padding: 20px;
     background-color: #f0f0f0;
 }
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f0f0f0; /* Or any color you prefer */
+}
+
+main {
+    flex: 1; /* Allows main content to take up remaining space */
+    padding: 20px; 
+}
