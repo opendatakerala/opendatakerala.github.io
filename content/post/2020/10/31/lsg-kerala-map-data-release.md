@@ -3,7 +3,7 @@ title: "Releasing LSGI Kerala Map Data"
 date: 2020-10-31T10:24:15+05:30
 draft: false
 
-weight:  1
+
 
 authors: ["open-data-observer"]
 

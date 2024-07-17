@@ -3,7 +3,7 @@ title: "ODK Logo Release"
 date: 2021-08-15
 draft: false
 
-weight:  1
+
 
 authors: ["open-data-observer"]
 

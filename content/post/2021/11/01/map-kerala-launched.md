@@ -4,7 +4,7 @@ title: "Map Kerala Launched "
 date: 2021-09-07
 draft: false
 
-weight:  1
+
 
 authors: ["open-data-observer"]
 

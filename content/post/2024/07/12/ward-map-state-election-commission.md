@@ -1,9 +1,9 @@
 ---
 title: "Ward Level Mapping - Meeting with State Election Commission"
-date: 2021-07-03T00:37:02+05:30
+date: 2024-07-12T00:37:02+05:30
 draft: false
 
-weight:  1
+
 
 authors: ["Jaisen Nedumpala"]
 

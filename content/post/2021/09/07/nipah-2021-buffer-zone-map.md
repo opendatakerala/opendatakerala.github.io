@@ -3,7 +3,7 @@ title: "Nipah 2021 Epicentre - 3 Kilometers Buffer Zone Map"
 date: 2021-09-07
 draft: false
 
-weight:  1
+
 
 authors: ["open-data-observer"]
 

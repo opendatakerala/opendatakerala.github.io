@@ -3,7 +3,7 @@ title: "Releasing Historical Covid-19 Vaccination"
 date: 2021-08-10T00:37:02+05:30
 draft: false
 
-weight:  1
+
 
 authors: ["open-data-observer"]
 
