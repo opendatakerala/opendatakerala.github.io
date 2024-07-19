@@ -15,6 +15,8 @@ geekblogHidden: false
 
 geekblogAnchor: true
 ---
+
+![](./image-2.jpg)
 I received a letter from the Secretary, State Election Commission, Kerala, on 22/06/2024, inviting me to a workshop scheduled to be conducted on 29th June at the headquarters of SEC, in Thiruvananthapuram. The letter stated that, The State Election Commission has decided to go ahead with digital mapping of constituencies and wards of all the LSGIs of the state. In order to carry out the activity at field level, it has been decided to conduct a one day workshop and to finalize its Standard Operating Procedure (SOP). All the district level Joint Directors of LSGD, and the State as well as district level Technical Officers of Information Kerala Mission were the other invitees. I have participated in the workshop. 
 
 The methodology for surveying and collecting the ward boundary data of each local authorities, framed by Information Kerala Mission was presented by the IKM officials before the State Election Commission, and the invitees. The field survey will be done using the mobile app QField for QGIS. A hands on training including field data collection was also conducted. Each district level official got the opportunity to comment on the methodology.
@@ -23,3 +25,6 @@ Me too got the opportunity to comment. The Commission already knows about, our p
 
 - Jaisen Nedumpala, 
 Secretary, Panangad Grama Panchayat.
+
+![](./image-1.jpg)
+![](./image-3.jpg)
