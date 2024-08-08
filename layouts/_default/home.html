@@ -5,40 +5,196 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OpenDataKerala - Open Data for Kerala</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="/">
-        <img class="logo" src="https://opendatakerala.org/logo.png" alt="OpenDataKerala Logo">
-      </a>
-      <ul>
-        <li><a href="/post">Blog Posts</a></li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="https://opendatakerala.org/logo.png" alt="OpenDataKerala Logo" width="40" height="40"> OpenDataKerala
+      </a>  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/post">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact Us</a>
+          </li>
+         </ul>
+         <!-- Social Media Icons -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/opendatakerala" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-item align-self-center text-light">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/opendatakerala/" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-item align-self-center text-light">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/opendatakerala" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </li>
       </ul>
-    </nav>
-  </header>
-  <div class="container">
-    <aside class="sidebar">
-      <!-- Sidebar content goes here -->
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </aside>
-    <main>
-      <h1>Welcome to OpenDataKerala!</h1>
+      </div>
+    </div>
+  </nav>
+  <!-- ################################################################################################### -->
+<div class="container py-5 mt-3 ">
+    <h1 class="py-3 ">Welcome to OpenDataKerala!</h1>
+    <h5 class="fst-italic px-5"> - A community driven open data portal for Kerala State in India</h5>
+      
+  </div>
+
+  <div class="container py-3">
+    <a class="anchor-link" href="#about" aria-label="Link to this section: About Us"></a>
+    <h2 id="about"> About Us
+      </h2>
+      <hr class="border border-dark border-1 opacity-40">
       <p>OpenDataKerala is a platform dedicated to providing open data for the state of Kerala. We believe that open
         data is essential for promoting transparency, accountability, and innovation.</p>
       <p>On this website, you will find a variety of datasets on topics such as education, health, and environment. You
         can also find resources to help you understand and use open data.</p>
-      <a href="/post">Explore Our Datasets</a>
-    </main>
+      
+
   </div>
-  <footer>
-  </footer>
-</body>
+  
+
+
+
+<div class="container py-3 mt-2">
+  <a class="anchor-link" href="#projects" aria-label="Link to this section: Projects"></a>
+  <h2 id="projects"> Projects
+    </h2>
+    <hr class="border border-dark border-1 opacity-40">
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-bg-success p-3">Map Kerala</h5>
+            <p class="card-text">LSGD Open Geo Portal of Kerala Sate.</p><br/><br/>
+            <a href="/post/2021/11/01/map-kerala-launched/" class="btn btn-primary">Read Blog Post</a>
+            <a href="https://map.opendatakerala.org" class="btn btn-info">Visit Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-bg-success p-3">OGD Portal</h5>
+            <p class="card-text">Open Mapping initiative by IIT Palakkad Social Outreach and 
+              Unnat Bharat Abhiyan in association with OpenDataKerala Volunteers </p>
+            <a href="https://iitpkd.ac.in/news/iit-palakkad-unnat-bharat-abhiyan-facilitates-community-driven-mapping-project-pudussery-gram" class="btn btn-primary">Read Blog Post</a>
+            <a href="https://ogd.iitpkd.ac.in/" class="btn btn-info">Visit Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-bg-success p-3">Kerala Covid Vaccination</h5>
+            <p class="card-text">Covid-19 Vaccination data of Kerala State obtained from cowin.gov.in.</p><br/>
+            <a href="/post/2021/08/10/covid-vaccination-kerala/" class="btn btn-primary">Read Blog Post</a>
+            <a href="https://github.com/opendatakerala/Covid-Vaccination" class="btn btn-info">Project Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-bg-success p-3">Kerala Panchayaths</h5>
+            <p class="card-text">A dashboard to obtain a glance of Panchayaths in Kerala from Wikidata.</p><br/>
+            <a href="https://opendatakerala.org/Panchayat/" class="btn btn-primary">Visit Page</a>
+            <a href="https://github.com/opendatakerala/Panchayat" class="btn btn-info">Project Link</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="container py-3 mt-2">
+      <a class="anchor-link" href="#news" aria-label="Link to this section: News"></a>
+      <h2 id="news"> News
+        
+        </h2>
+        <hr class="border border-dark border-1 opacity-40">
+
+        <div class="list-group">
+          <a href="https://www.newindianexpress.com/states/kerala/2024/Aug/03/kerala-open-street-mapping-to-ensure-speedy-relief-for-landslide-victims" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The New Indian Express</span></p>
+              <small class="text-body-secondary">
+                03 Aug 2024</small>
+            </div>
+            <h4 class="mt-2 mb-2">Kerala: Open street mapping to ensure speedy relief for landslide victims</h4>
+            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
+          </a>
+          <a href="https://www.thehindu.com/news/national/kerala/now-you-can-download-data-map-of-local-bodies-in-kerala/article37297429.ece" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The New Indian Express</span></p>
+              <small class="text-body-secondary">
+                04 Nov 2021</small>
+            </div>
+            <h4 class="mt-2 mb-2">Kerala at your fingertips: Elaborative maps of Kerala’s local bodies are now available!</h4>
+            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
+          </a>
+          <a href="https://timesofindia.indiatimes.com/city/kochi/open-data-maps-of-local-bodies-created/articleshow/78974570.cms" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The Hindu</span></p>
+              <small class="text-body-secondary">
+                02 Nov 2021</small>
+            </div>
+            <h4 class="mt-2 mb-2">Now, you can download data map of local bodies in Kerala </h4>
+            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
+          </a>
+          <a href="https://www.newindianexpress.com/cities/kochi/2021/Nov/04/kerala-at-your-fingertips-elaborative-maps-of-keralas-local-bodies-are-now-available-2379379.html" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The Times of India</span></p>
+              <small class="text-body-secondary">
+                01 Nov 2020</small>
+            </div>
+            <h4 class="mt-2 mb-2">Open data maps of Kerala local bodies created</h4>
+            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
+          </a>
+        </div>
+    </div>
+<div class="container mt-5"></div>
+  <!-- ################################################################################################### -->
+    <footer class="bd-footer fixed-bottom py-2 py-md-2  mt-5 mt-md-4 bg-body-tertiary text-bg-primary" data-bs-theme="dark">
+      <div class="container text-center">
+        <span class="text-muted">An OpenDataKerala Initiative</span>
+      </div>
+    </footer>
+ </body>
 
 </html>
