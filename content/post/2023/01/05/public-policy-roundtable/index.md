@@ -1,5 +1,5 @@
 ---
-title: "Open Data Ecosystem in India"
+title: "Round Table on Open Data Ecosystem in India"
 date: 2023-01-07T00:37:02+05:30
 draft: false
 
