@@ -5,7 +5,7 @@ draft: false
 
 
 
-authors: ["Naveen P F"]
+authors: ["Naveen Francis"]
 
 tags: ["OpenData","OSMKerala", "OSMIndia","OpenDataKerala"]
 
@@ -18,7 +18,7 @@ geekblogAnchor: true
 
 ![](2.jpeg)
 
-A Stakeholders’ Workshop was organized by [Open Government Data (OGD) Platform India](https://data.gov.in) on 26th July 2024 at the Indian Habitat Centre, New Delhi. Naveen P Francis, representing OpenDataKerala participated in the workshop . He also delivered a talk on OpenStreetMap India and activities of OpenDataKerala and how it helped to develop an opendata eco system in Kerala.  
+A Stakeholders’ Workshop was organized by [Open Government Data (OGD) Platform India](https://data.gov.in) on 26th July 2024 at the Indian Habitat Centre, New Delhi. Naveen Francis, representing OpenDataKerala participated in the workshop . He also delivered a talk on OpenStreetMap India and activities of OpenDataKerala and how it helped to develop an opendata eco system in Kerala.  
 
 - View/Download the Presentation here 
 {{< button href="/post/2024/07/26/stakeholders-workshop/osmindia1.pdf" class="btn btn-white" >}}PDF{{< /button >}}
