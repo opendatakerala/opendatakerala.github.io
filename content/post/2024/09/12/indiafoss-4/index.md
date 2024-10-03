@@ -20,10 +20,12 @@ geekblogAnchor: true
 Photo Courtesy:[Outoftune2000](https://commons.wikimedia.org/wiki/User:Outoftune2000)
 
 The 4th edition of IndiaFOSS was organized by FOSS United at NIMHANS Convention Centre, Bengaluru from 7th to 8th, September 2024. OpenDataKerala setup a booth at IndiaFOSS for sharing the community projects and also attracting young talents for contributing to these projects. OpenDataKerala volunteers including Naveen Francis, Jaisen Nedumpala, Ark Arjun, Ranjith Siji, Athul R T, Athul Raj, Jothish Babu explained visitors about the different projects hosted by the community harnessing the power of platforms like Wikimedia and OpenStreetMap. The booth helped the to get visibility on the community contributions that shaped the open data eco-system in Kerala, which exists as a working model for rest of India. 
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/OpenDataKerala_Stall_at_IndiaFOSS_4.0_11.jpg/640px-OpenDataKerala_Stall_at_IndiaFOSS_4.0_11.jpg)
 
 
 Along with this, promotion of Wiki Loves Onam campaign was also conducted.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/OpenDataKerala_Stall_at_IndiaFOSS_4.0_4.jpg/640px-OpenDataKerala_Stall_at_IndiaFOSS_4.0_4.jpg)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/OpenDataKerala_Stall_at_IndiaFOSS_4.0_3.jpg/640px-OpenDataKerala_Stall_at_IndiaFOSS_4.0_3.jpg)
