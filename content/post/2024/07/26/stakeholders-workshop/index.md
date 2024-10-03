@@ -7,7 +7,7 @@ draft: false
 
 authors: ["Naveen P F"]
 
-tags: ["OpenData"]
+tags: ["OpenData","OSMKerala", "OSMIndia","OpenDataKerala"]
 
 geekblogToC: 3
 
