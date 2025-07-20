@@ -1,0 +1,35 @@
+[[projects]]
+title = "Map Kerala"
+description = "LSGD Open Geo Portal of Kerala State."
+blog_post = "/post/2021/11/01/map-kerala-launched/"
+visit_page = "https://map.opendatakerala.org"
+
+[[projects]]
+title = "OGD Portal"
+description = "Open Mapping initiative by IIT Palakkad Social Outreach and Unnat Bharat Abhiyan in association with OpenDataKerala Volunteers"
+blog_post = "https://iitpkd.ac.in/news/iit-palakkad-unnat-bharat-abhiyan-facilitates-community-driven-mapping-project-pudussery-gram"
+visit_page = "https://ogd.iitpkd.ac.in/"
+
+[[projects]]
+title = "Sarvavijnanakosham"
+description = "Index Repo for Sarvavijnanakosam by the State Institute of Encyclopaedic Publications under the Department of Cultural Affairs, Government of Kerala."
+visit_page = "https://opendatakerala.org/sarvavijnanakosam/"
+project_link = "https://github.com/opendatakerala/sarvavijnanakosam"
+
+[[projects]]
+title = "Kerala Covid Vaccination"
+description = "Covid-19 Vaccination data of Kerala State obtained from cowin.gov.in."
+blog_post = "/post/2021/08/10/covid-vaccination-kerala/"
+project_link = "https://github.com/opendatakerala/Covid-Vaccination"
+
+[[projects]]
+title = "Kerala Panchayaths"
+description = "A dashboard to obtain a glance of Panchayaths in Kerala from Wikidata."
+visit_page = "https://opendatakerala.org/Panchayat/"
+project_link = "https://github.com/opendatakerala/Panchayat"
+
+[[projects]]
+title = "Unroll Kerala"
+description = "City transportation mapping project."
+visit_page = "https://opendatakerala.org/unroll/"
+project_link = "https://github.com/opendatakerala/unroll"

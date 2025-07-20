@@ -1,0 +1,17 @@
+{{ $count := cond (isset . "count") .count (len site.Data.home.news.news) }}
+{{ $toShow := first $count site.Data.home.news.news }}
+
+<div class="list-group">
+  {{ range $toShow }}
+    <a href="{{ .url }}" target="_blank" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <p class="mb-2">
+          <i class="fa-solid fa-newspaper me-2"></i>
+          <span class="fw-bold fs-5">{{ .source }}</span>
+        </p>
+        <small class="text-body-secondary mt-auto">{{ dateFormat "02 Jan 2006" (time .date) }}</small>
+      </div>
+      <h4 class="mt-2 mb-2 text-primary">{{ .title }}</h4>
+    </a>
+  {{ end }}
+</div>

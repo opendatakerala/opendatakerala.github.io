@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.sitename }} Logo" width="40" height="40"> {{ .Site.Params.sitename }}
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      {{ with .Site.Params.blogButton }}
+      <a class="btn btn-outline-light me-3" href="{{ $.Site.Params.blogUrl }}">{{ . }}</a>
+      {{ end }}
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <!-- Social Media Icons -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        {{ range .Site.Params.social }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .url }}" target="_blank" aria-label="{{ .name }}">
+            <i class="{{ .icon }} fa-lg me-2"></i>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

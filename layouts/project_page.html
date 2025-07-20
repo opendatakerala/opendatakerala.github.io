@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    {{ partial "navbar.html" . }}
+5
+    <div class="container py-3 mt-5">
+    <div class="container text-center">
+      <h1 id="projects">Projects</h1>
+    </div>
+      <hr class="border border-dark border-1 opacity-40">
+      <!-- <div class="container text-align mt-2 mb-4">
+        OpendataKerala collaborates with various communities and organizations in the field of open data and open knowledge to organize events aimed at promoting awareness and popularizing these concepts.      
+    </div> -->
+      {{ partial "projects.html" (dict) }}
+
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{{/* layouts/partials/banner.html */}}
+{{ $banner := site.Data.home.banner }}
+{{ if and $banner.visible $banner.expiry }}
+  {{ $now := now }}
+  {{ $expiry := time $banner.expiry }}
+  {{ if lt $now $expiry }}
+    <div class="banner" style='background-image:url("{{ $banner.background }}");'>
+      <div class="banner-buttons">
+        {{ with $banner.register_url }}
+          <a href="{{ . }}" target="_blank">
+            <button class="btn btn-primary">
+              {{ $banner.register_text | default "Register" }}
+            </button>
+          </a>
+        {{ end }}
+        {{ with $banner.readmore_url }}
+          <a href="{{ . }}">
+            <button class="btn btn-secondary">
+              {{ $banner.readmore_text | default "Read More..." }}
+            </button>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

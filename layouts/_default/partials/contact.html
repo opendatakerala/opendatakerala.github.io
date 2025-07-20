@@ -1,0 +1,20 @@
+<div class="container py-3 mb-5">
+  <a class="anchor-link" href="#contact" aria-label="Link to this section: Community"></a>
+  <h2 id="contact">Contact Us</h2>
+  <hr class="border border-dark border-1 opacity-40">
+  <p class="fs-6">
+    Do you have any suggestions, questions or wish to contribute to our projects??
+  </p>
+  <p>Feel free to contact us on:</p>
+  <div class="container text-center" style="max-width: 40rem;">
+    <div class="row align-items-start">
+      {{ range site.Data.home.contacts.contacts }}
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+          <a class="nav-link {{ .color | default "text-primary" }}" href="{{ .url }}"{{ if ne .type "email" }} target="_blank"{{ end }} aria-label="{{ .label }}">
+            <i class="{{ .icon }} fa-2xl me-2"></i> {{ .label }}
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

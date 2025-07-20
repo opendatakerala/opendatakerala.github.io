@@ -50,6 +50,58 @@ enableGitInfo = true
   description = "A Network of Institutions and Individuals to Promotes OpenData in Kerala"
   keywords = []
   images = []
+  blogButton = "Read Our Blog"
+  blogUrl = "/post"
+  logo = "https://opendatakerala.org/logo.png"
+  sitename = "OpenDataKerala"
+
+[[menu.main]]
+  name = "About Us"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 2
+
+[[menu.main]]
+  name = "Events"
+  url = "#events"
+  weight = 3
+
+[[menu.main]]
+  name = "News"
+  url = "#news"
+  weight = 4
+
+[[menu.main]]
+  name = "Community"
+  url = "#community"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact Us"
+  url = "#contact"
+  weight = 6
+
+# Social links
+[[params.social]]
+  name = "Twitter"
+  url = "https://twitter.com/opendatakerala"
+  icon = "fab fa-twitter"
+
+[[params.social]]
+  name = "Facebook"
+  url = "https://www.facebook.com/opendatakerala/"
+  icon = "fab fa-facebook-f"
+
+[[params.social]]
+  name = "GitHub"
+  url = "https://github.com/opendatakerala"
+  icon = "fab fa-github"
+
+
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
   # relative to your 'static/' folder.

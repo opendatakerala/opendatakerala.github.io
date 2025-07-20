@@ -1,0 +1,12 @@
+<div class="container">
+    <a class="anchor-link" href="#about" aria-label="Link to this section: About Us"></a>
+    <h2 id="about">{{ site.Data.about.title }}</h2>
+    <hr class="border border-dark border-1 opacity-40">
+  
+    <img src="{{ site.Data.home.about.image }}" class="img-fluid mb-3 rounded mx-auto d-block" alt="OpenDataKerala Logo" style="max-height:300px;">
+  
+    {{ range site.Data.about.paragraphs }}
+      <p>{{ . }}</p>
+    {{ end }}
+  </div>
+  

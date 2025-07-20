@@ -1,0 +1,20 @@
+[[contacts]]
+type   = "email"
+label  = "Send Email"
+url    = "mailto:opendatakerala@gmail.com"
+icon   = "fa-solid fa-envelope"
+color  = "text-primary"
+
+[[contacts]]
+type   = "twitter"
+label  = "Twitter"
+url    = "https://twitter.com/opendatakerala"
+icon   = "fab fa-twitter"
+color  = "text-info"
+
+[[contacts]]
+type   = "facebook"
+label  = "Facebook"
+url    = "https://www.facebook.com/opendatakerala/"
+icon   = "fab fa-facebook-f"
+color  = "text-primary"

@@ -1,0 +1,24 @@
+{{/* layouts/partials/events.html */}}
+{{ $events := site.Data.home.events.events }}
+{{ $count := .count | default (len $events) }}
+{{ $toShow := first $count $events }}
+
+  {{ range $toShow }}
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-2">
+        <img src="{{ .image }}" class="img-thumbnail rounded-start" alt="{{ .title }}" style="max-height:300px;">
+      </div>
+      <div class="col-md-9">
+        <div class="card-body">
+          <h5 class="card-title">{{ .title }}</h5>
+          <p class="card-text">{{ .description }}</p>
+          <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">{{ .time }}</small></p>
+          <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">{{ .venue }}</small></p>
+          <a href="{{ .link }}" target="_blank" class="btn btn-primary">Event Page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+

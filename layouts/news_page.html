@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    {{ partial "navbar.html" . }}
+
+    <main class="container py-3 mt-5">
+      <a class="anchor-link" href="#news" aria-label="Link to this section: News"></a>
+      <h2 id="news" class="mb-4">All News</h2>
+      <hr class="border border-dark border-1 opacity-40">
+      {{ partial "news_full.html" (dict) }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

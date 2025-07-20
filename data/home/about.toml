@@ -1,0 +1,10 @@
+title = "About Us"
+image = "odk.png"
+
+paragraphs = [
+  "Open Data Kerala is a vibrant community platform dedicated to enhancing access and utilization of open data related to Kerala and Malayalam language. We bring together communities, organizations, government bodies, and industries to create a thriving ecosystem for data sharing, curation, and reuse. We believe that open data is a catalyst for innovation, transparency, and societal progress.",
+
+  "By making data accessible, reusable, and shareable, we aim to empower citizens, researchers, and businesses to drive positive change. We organize campaigns, data-a-thons, map-a-thons, and workshops to promote data literacy and encourage data-driven solutions. We are committed to creating a culture of data sharing and collaboration, where information is a public good.",
+
+  "Join us in our journey to unlock the potential of data and build a smarter, more inclusive Kerala."
+]

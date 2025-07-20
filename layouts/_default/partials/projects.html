@@ -1,0 +1,30 @@
+{{/* layouts/partials/projects.html */}}
+{{ $projects := site.Data.home.projects.projects }}
+{{ $count := cond (isset . "count") .count (len $projects) }}
+{{ $toShow := first $count $projects }}
+
+{{ if $toShow }}
+  <div class="row">
+    {{ range $toShow }}
+      <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+        <div class="card w-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-bg-success p-3">{{ .title }}</h5>
+            <p class="card-text flex-grow-1">{{ .description }}</p>
+            <div class="mt-auto">
+              {{ with .blog_post }}
+                <a href="{{ . }}" target="_blank" class="btn btn-primary me-2 mb-2">Read Blog Post</a>
+              {{ end }}
+              {{ with .visit_page }}
+                <a href="{{ . }}" target="_blank" class="btn btn-info me-2 mb-2">Visit Page</a>
+              {{ end }}
+              {{ with .project_link }}
+                <a href="{{ . }}" target="_blank" class="btn btn-info mb-2">Project Link</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

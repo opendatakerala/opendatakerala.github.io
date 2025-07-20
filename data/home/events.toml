@@ -1,0 +1,39 @@
+[[events]]
+title = "WikiConference Kerala"
+description = "WikiConference Kerala is an initiative to support Wikimedia Ecosystem in Kerala and Malayalam Language..."
+time = "23 Dec 2023"
+venue = "St. Thomas College (Autonomous), Thrissur."
+image = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Conference_Kerala_2023_Poster_Blue.png/800px-Wiki_Conference_Kerala_2023_Poster_Blue.png"
+link = "https://meta.wikimedia.org/wiki/WikiConference_Kerala"
+
+[[events]]
+title = "Wikidata - Hands on Workshop"
+description = "A full-day hands-on workshop about Wikidata and the importance of structured open data..."
+time = "27 Mar 2023"
+venue = "AR Lab, NSS College of Engineering, Palakkad."
+image = "Wiki23_NSSCollege.png"
+link = "https://meta.wikimedia.org/wiki/Wikimedians_of_Kerala/Events/Open_Data_Day_2023/NSS_College_of_Engineering"
+
+[[events]]
+title = "OSM Kerala Community Meetup 2023"
+description = "Annual meetup of Openstreetmap Kerala community."
+time = "04-05 Nov 2023"
+venue = "Kerala Sahithya Academy, Thrissur."
+image = "osm_meetup.jpg"
+link = "https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2023"
+
+[[events]]
+title = "OSM Kerala Community Meetup 2022"
+description = "Annual meetup of Openstreetmap Kerala community."
+time = "31 Jul 2022"
+venue = "Regional Resource Centre, KITE, Edappalli, Ernakulam district, Kerala, India"
+image = "Event_sticker.png"
+link = "https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2022"
+
+[[events]]
+title = "Panel Discussion - Open Data Day 2021"
+description = "OpenDataKerala Community Conducted a Panel Discussion on OpenData Week 2021."
+time = "8:00 PM, 8 Mar 2021"
+venue = "Online"
+image = "https://i.imgur.com/TOAnlNJ.png"
+link = "https://www.youtube.com/watch?v=w5S0P8NwyUY&t=1s"

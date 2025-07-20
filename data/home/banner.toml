@@ -1,0 +1,8 @@
+visible = true
+expiry = "2025-03-23T00:00:00+05:30"
+title = "Open Data Days - Kerala 2025"
+background = "ODD-2025.jpg"
+register_url = "https://docs.google.com/forms/d/e/1FAIpQLScuexIaeNOvl3xvtnryA-5C7Zj6DuhI5sO3y2eqbZtWc7bNbA/viewform"
+register_text = "Register"
+readmore_url = "/post/2025/03/19/odd2025/"
+readmore_text = "Read More..."

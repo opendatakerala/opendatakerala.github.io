@@ -1,423 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OpenDataKerala - Open Data for Kerala</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <style>
-    .banner {
-        position: relative;
-        width: 90%;
-        height: 400px;
-        background-image: url('ODD-2025.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        color: white;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
 
-    .banner-buttons {
-        position: absolute;
-        top: 80%;
-        left: 60%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
-    .banner-buttons button {
-        padding: 15px 30px;
-        font-size: 18px;
-    }
-
-    @media (max-width: 1200px) {
-        .banner {
-            height: 350px;
-        }
-        .banner-buttons button{
-            padding: 13px 25px;
-            font-size: 16px;
-        }
-    }
-
-    @media (max-width: 992px) {
-        .banner {
-            height: 300px;
-        }
-        .banner-buttons button{
-            padding: 11px 22px;
-            font-size: 15px;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .banner {
-            height: 300px;
-        }
-        .banner-buttons {
-            top: auto;
-            left: 50%;
-            transform: translate(-50%, 0);
-            bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            width: 60%;
-        }
-        .banner-buttons button {
-            padding: 5px 5px;
-            font-size: 14px;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .banner {
-            background-image: url('ODD_mobile.jpg');
-            width: 100%;
-            height: 400px;
-        }
-
-        .banner-buttons {
-            top: auto;
-            left: 50%;
-            transform: translate(-50%, 0);
-            bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            width: 60%;
-        }
-
-        .banner-buttons button {
-            font-size: 12px;
-        }
-
-        .banner-buttons > :not(:nth-child(-n+2)) {
-            display: none;
-        }
-    }
-</style>
-</head>
-
+{{ partial "head.html" . }}
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/">
-        <img src="https://opendatakerala.org/logo.png" alt="OpenDataKerala Logo" width="40" height="40"> OpenDataKerala
-      </a>  
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="btn btn-outline-light me-3" href="/post" > Read Our Blog</a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="#about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#projects">Projects</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link active" href="/post">Blog</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link active" href="#events">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#news">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#community">Community</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#contact">Contact Us</a>
-          </li>
-         </ul>
-         <!-- Social Media Icons -->
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/opendatakerala" target="_blank" aria-label="Twitter">
-            <i class="fab fa-twitter fa-lg me-2"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/opendatakerala/" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook-f fa-lg me-2"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/opendatakerala" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github fa-lg me-2"></i>
-          </a>
-        </li>
-      </ul>
-      </div>
-    </div>
-  </nav>
+  {{ partial "navbar.html" . }}
+
   <!-- ################################################################################################### -->
 <div class="container py-5 mt-3 ">
     <h1 class="py-3 ">Welcome to OpenDataKerala!</h1>
     <h5 class="fst-italic px-5"> - A community driven open data initiative for Kerala State in India</h5>
       
   </div>
-  <div class="banner">
-    <div class="banner-buttons">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScuexIaeNOvl3xvtnryA-5C7Zj6DuhI5sO3y2eqbZtWc7bNbA/viewform" target="_blank"><button class="btn btn-primary">Register</button></a>
-        <a href="post/2025/03/19/odd2025/"><button class="btn btn-secondary">Read More...</button></a>
-    </div>
+  {{ partial "banner.html" . }}
 </div>
-  <div class="container">
-    <a class="anchor-link" href="#about" aria-label="Link to this section: About Us"></a>
-    <h2 id="about"> About Us
-      </h2>
-      <hr class="border border-dark border-1 opacity-40">
+  
+{{ partial "about.html" . }}
 
-        <img src="odk.png"class="img-fluid mb-3 rounded mx-auto d-block" alt="..." style="max-height:300px;">
-
-      <p>Open Data Kerala is a vibrant community platform dedicated to enhancing access and
-         utilization of open data related to Kerala and Malayalam language. We bring together communities,
-         
-          organizations, government bodies, and industries to create a thriving ecosystem for data sharing,
-           curation, and reuse. We believe that open data is a catalyst for innovation, transparency, and societal progress.</p>
-        
-        <p>By making data accessible, reusable, and shareable, we aim to empower citizens, researchers, and 
-          businesses to drive positive change. We organize campaigns, data-a-thons, map-a-thons, and workshops 
-          to promote data literacy and encourage data-driven solutions. We are committed to creating a culture
-           of data sharing and collaboration, where information is a public good.</p>
-        
-          <p>Join us in our journey to unlock the potential of data and build a smarter, more inclusive Kerala.</p>
-         
-
-  </div>
-
-
-<div class="container py-3 mt-2">
+<section class="container py-3 mt-2">
   <a class="anchor-link" href="#projects" aria-label="Link to this section: Projects"></a>
   <h2 id="projects"> Projects
     </h2>
-    <hr class="border border-dark border-1 opacity-40">
-    <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">Map Kerala</h5>
-            <p class="card-text">LSGD Open Geo Portal of Kerala Sate.</p><br/>
-            <a href="/post/2021/11/01/map-kerala-launched/" target="_blank" class="btn btn-primary">Read Blog Post</a>
-            <a href="https://map.opendatakerala.org" target="_blank" class="btn btn-info">Visit Page</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">OGD Portal</h5>
-            <p class="card-text">Open Mapping initiative by IIT Palakkad Social Outreach and 
-              Unnat Bharat Abhiyan in association with OpenDataKerala Volunteers </p>
-            <a href="https://iitpkd.ac.in/news/iit-palakkad-unnat-bharat-abhiyan-facilitates-community-driven-mapping-project-pudussery-gram" target="_blank" class="btn btn-primary">Read Blog Post</a>
-            <a href="https://ogd.iitpkd.ac.in/" target="_blank" class="btn btn-info">Visit Page</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">Sarvavijnanakosham</h5>
-            <p class="card-text">Index Repo for Sarvavijnanakosam by the
-               State Institute of Encyclopaedic Publications under the Department of Cultural Affairs, Government of Kerala.</p>
-            <a href="https://opendatakerala.org/sarvavijnanakosam/" target="_blank" class="btn btn-primary">Visit Page</a>
-            <a href="https://github.com/opendatakerala/sarvavijnanakosam" class="btn btn-info">Project Link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">Kerala Covid Vaccination</h5>
-            <p class="card-text">Covid-19 Vaccination data of Kerala State obtained from cowin.gov.in.</p><br/>
-            <a href="/post/2021/08/10/covid-vaccination-kerala/" target="_blank" class="btn btn-primary">Read Blog Post</a>
-            <a href="https://github.com/opendatakerala/Covid-Vaccination" target="_blank" class="btn btn-info">Project Link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">Kerala Panchayaths</h5>
-            <p class="card-text">A dashboard to obtain a glance of Panchayaths in Kerala from Wikidata.</p><br/>
-            <a href="https://opendatakerala.org/Panchayat/" target="_blank" class="btn btn-primary">Visit Page</a>
-            <a href="https://github.com/opendatakerala/Panchayat" target="_blank" class="btn btn-info">Project Link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 mb-3 mb-sm-0 mt-2">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-bg-success p-3">Unroll Kerala</h5>
-            <p class="card-text">City transportation mapping project.</p><br/>
-            <a href="https://opendatakerala.org/unroll/" target="_blank" class="btn btn-primary">Visit Page</a>
-            <a href="https://github.com/opendatakerala/unroll" target="_blank" class="btn btn-info">Project Link</a>
-          </div>
-        </div>
-      </div>
+    {{ partial "projects.html" (dict "count" 3) }}
 
-
+    <div class="d-flex justify-content-center mt-2 mb-3">
+      <a href="/project_page/" class="btn btn-outline-primary">All Projects</a>
     </div>
+  </section>
 
-    <div class="container py-3">
-      <a class="anchor-link" href="#events" aria-label="Link to this section: Events"></a>
-      <h2 id="events"> Events
-        </h2>
-        <hr class="border border-dark border-1 opacity-40">
-        
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Conference_Kerala_2023_Poster_Blue.png/800px-Wiki_Conference_Kerala_2023_Poster_Blue.png" class="img-thumbnail rounded-start" alt="..." style="max-height:300px;">
-            </div>
-            <div class="col-md-9">
-              <div class="card-body">
-                <h5 class="card-title">WikiConference Kerala</h5>
-                <p class="card-text">WikiConference Kerala is a initiative to support Wikimedia Ecosystem in Kerala 
-                  and Malayalam Language with support of similar goal sharing Communities and Organizations.
-                   In 2023 its happening as a un-conference format along with the 21st Birthday Celebration of Malayalam Wikipedia.</p>
-                <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">23 Dec 2023
-                </small></p>
-                <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">St. Thomas College (Autonomous), Thrissur.</small></p>
-                <a href="https://meta.wikimedia.org/wiki/WikiConference_Kerala" target="_blank" class="btn btn-primary">Event Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="Wiki23_NSSCollege.png" alt="..." style="max-height:250px;">
-            </div>
-            <div class="col-md-9">
-              <div class="card-body">
-                <h5 class="card-title">Wikidata - Hands on Workshop</h5>
-                <p class="card-text">A full-day hands-on workshop about Wikidata and the importance of structured open data is organized in accordance with Opendata day 2023.</p>
-                <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">27 Mar 2023
-                </small></p>
-                <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">AR Lab, NSS College of Engineering, Palakkad.</small></p>
-                <a href="https://meta.wikimedia.org/wiki/Wikimedians_of_Kerala/Events/Open_Data_Day_2023/NSS_College_of_Engineering" target="_blank" class="btn btn-primary">Event Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="osm_meetup.jpg" class="img-thumbnail rounded-start" alt="..." style="max-height:250px;">
-            </div>
-            <div class="col-md-9">
-              <div class="card-body">
-                <h5 class="card-title">OSM Kerala Community Meetup 2023</h5>
-                <p class="card-text">Annual meetup of Openstreetmap Kerala community.</p>
-                <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">04-05 Nov 2023
-                </small></p>
-                <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">Kerala Sahithya Academy, Thrissur.</small></p>
-                <a href="https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2023" target="_blank" class="btn btn-primary">Event Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="Event_sticker.png" class="img-thumbnail rounded-start" alt="..." style="max-height:250px;">
-            </div>
-            <div class="col-md-9">
-              <div class="card-body">
-                <h5 class="card-title">OSM Kerala Community Meetup 2022</h5>
-                <p class="card-text">Annual meetup of Openstreetmap Kerala community.</p>
-                <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">31 Jul 2022
-                </small></p>
-                <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">Regional Resource Centre, KITE, Edappalli, Ernakulam district, Kerala, India</small></p>
-                <a href="https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2022" target="_blank" class="btn btn-primary">Event Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-2">
-              <img src="https://i.imgur.com/TOAnlNJ.png" class="img-thumbnail rounded-start" alt="..." style="max-height:250px;">
-            </div>
-            <div class="col-md-9">
-              <div class="card-body">
-                <h5 class="card-title">Panel Discussion - Open Data Day 2021</h5>
-                <p class="card-text">OpenDataKerala Community Conducted a Panel Discussion on OpenData Week 2021.</p>
-                <p class="card-text fw-bold"><span class="me-2">Time :</span><small class="text-body-secondary">8:00 PM, 8 Mar 2021</small></p>
-                <p class="card-text fw-bold"><span class="me-2">Venue :</span><small class="text-body-secondary">Online</small></p>
-                <a href="https://www.youtube.com/watch?v=w5S0P8NwyUY&t=1s" class="btn btn-primary">Youtube Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
+<section id="events" class="container py-3">
+  <a class="anchor-link" href="#events" aria-label="Link to this section: Events"></a>
+  <h2>Events</h2>
+  <hr class="border border-dark border-1 opacity-40">
 
-    </div>
+  {{ partial "events.html" (dict "count" 3) }}
 
+  <div class="d-flex justify-content-center mt-2 mb-3">
+    <a href="/event_page/" class="btn btn-outline-primary">All Events</a>
+  </div>
+</section>
 
-    <div class="container py-3 mt-2">
-      <a class="anchor-link" href="#news" aria-label="Link to this section: News"></a>
-      <h2 id="news"> News
-        
-        </h2>
-        <hr class="border border-dark border-1 opacity-40">
+<section class="container py-3 mt-2">
+  <a class="anchor-link" href="#news" aria-label="Link to this section: News"></a>
+  <h2 id="news"> News</h2>
+  <hr class="border border-dark border-1 opacity-40">
 
-        <div class="list-group">
-          <a href="https://www.newindianexpress.com/states/kerala/2024/Aug/03/kerala-open-street-mapping-to-ensure-speedy-relief-for-landslide-victims" target="_blank" class="list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-between">
-              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The New Indian Express</span></p>
-              <small class="text-body-secondary">
-                03 Aug 2024</small>
-            </div>
-            <h4 class="mt-2 mb-2 text-primary">Kerala: Open street mapping to ensure speedy relief for landslide victims</h4>
-            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
-          </a>
-          <a href="https://www.thehindu.com/news/national/kerala/now-you-can-download-data-map-of-local-bodies-in-kerala/article37297429.ece" target="_blank" class="list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-between">
-              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The New Indian Express</span></p>
-              <small class="text-body-secondary">
-                04 Nov 2021</small>
-            </div>
-            <h4 class="mt-2 mb-2 text-primary">Kerala at your fingertips: Elaborative maps of Kerala’s local bodies are now available!</h4>
-            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
-          </a>
-          <a href="https://timesofindia.indiatimes.com/city/kochi/open-data-maps-of-local-bodies-created/articleshow/78974570.cms" target="_blank" class="list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-between">
-              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The Hindu</span></p>
-              <small class="text-body-secondary">
-                02 Nov 2021</small>
-            </div>
-            <h4 class="mt-2 mb-2 text-primary">Now, you can download data map of local bodies in Kerala </h4>
-            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
-          </a>
-          <a href="https://www.newindianexpress.com/cities/kochi/2021/Nov/04/kerala-at-your-fingertips-elaborative-maps-of-keralas-local-bodies-are-now-available-2379379.html" target="_blank" class="list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-between">
-              <p class="mb-1"><i class="fa-solid fa-newspaper me-2"></i><span class="fw-bold fs-5">The Times of India</span></p>
-              <small class="text-body-secondary">
-                01 Nov 2020</small>
-            </div>
-            <h4 class="mt-2 mb-2 text-primary">Open data maps of Kerala local bodies created</h4>
-            <!-- <small class="text-body-secondary">And some muted small print.</small> -->
-          </a>
-        </div>
-    </div>
+  {{ partial "news.html" (dict "count" 4) }}
 
+  <div class="d-flex justify-content-center mt-2 mb-3">
+    <a href="{{ "/news_page/" | relURL }}" class="btn btn-outline-primary">All News</a>
+  </div>
+</section>
     <div class="container py-3">
       <a class="anchor-link" href="#community" aria-label="Link to this section: Community"></a>
       <h2 id="community"> Community
@@ -430,41 +63,9 @@
         </p>
     </div>
 
-    <div class="container py-3 mb-5">
-      <a class="anchor-link" href="#contact" aria-label="Link to this section: Community"></a>
-      <h2 id="contact">Contact Us</h2>
-      <hr class="border border-dark border-1 opacity-40">
-      <p class="fs-6">
-        Do you have any suggestions, questions or wish to contribute to our projects??
-      </p>
-      <p>Feel free to contact us on:</p>
-      <div class="container text-center" style="max-width: 40rem;">
-        <div class="row align-items-start">
-          <div class="col-12 col-md-4 mb-3 mb-md-0">
-            <a class="nav-link text-primary" href="mailto:opendatakerala@gmail.com">
-              <i class="fa-solid fa-envelope fa-2xl me-2"></i> Send Email
-            </a>
-          </div>
-          <div class="col-12 col-md-4 mb-3 mb-md-0">
-            <a class="nav-link text-primary" href="https://twitter.com/opendatakerala" target="_blank" aria-label="Twitter">
-              <i class="fab fa-twitter fa-2xl me-2"></i> Twitter
-            </a>
-          </div>
-          <div class="col-12 col-md-4">
-            <a class="nav-link text-primary" href="https://www.facebook.com/opendatakerala/" target="_blank" aria-label="Facebook">
-              <i class="fab fa-facebook-f fa-2xl me-2"></i> Facebook
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ partial "contact.html" . }}
 
-  <!-- ################################################################################################### -->
-    <footer class="bd-footer fixed-bottom  mt-5 mt-md-5 bg-body-tertiary text-bg-primary" data-bs-theme="dark">
-      <div class="container text-center">
-        <span class="text-muted">© Except where otherwise noted, content on this site is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA</a> license. 2024</span>
-      </div>
-    </footer>
+    {{partial "footer.html"}}
  </body>
 
 </html>
