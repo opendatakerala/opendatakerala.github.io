@@ -2,6 +2,8 @@ baseURL = "http://opendatakerala.org/"
 languageCode = "en-us"
 title = "Open Data Kerala"
 theme = "geekblog"
+relativeURLs = true
+canonifyURLs = true
 
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
