@@ -11,7 +11,7 @@ title = "Wikidata - Hands on Workshop"
 description = "A full-day hands-on workshop about Wikidata and the importance of structured open data..."
 time = "27 Mar 2023"
 venue = "AR Lab, NSS College of Engineering, Palakkad."
-image = "Wiki23_NSSCollege.png"
+image = "/Wiki23_NSSCollege.png"
 link = "https://meta.wikimedia.org/wiki/Wikimedians_of_Kerala/Events/Open_Data_Day_2023/NSS_College_of_Engineering"
 
 [[events]]
@@ -19,7 +19,7 @@ title = "OSM Kerala Community Meetup 2023"
 description = "Annual meetup of Openstreetmap Kerala community."
 time = "04-05 Nov 2023"
 venue = "Kerala Sahithya Academy, Thrissur."
-image = "osm_meetup.jpg"
+image = "/osm_meetup.jpg"
 link = "https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2023"
 
 [[events]]
@@ -27,7 +27,7 @@ title = "OSM Kerala Community Meetup 2022"
 description = "Annual meetup of Openstreetmap Kerala community."
 time = "31 Jul 2022"
 venue = "Regional Resource Centre, KITE, Edappalli, Ernakulam district, Kerala, India"
-image = "Event_sticker.png"
+image = "/Event_sticker.png"
 link = "https://wiki.openstreetmap.org/wiki/OSM_Kerala_Community_Meetup_2022"
 
 [[events]]
