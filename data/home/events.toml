@@ -1,4 +1,28 @@
 [[events]]
+title = "Open Data Days 2025"
+description = "Open Data Day is an annual event dedicated to raising awareness about open data and encouraging its use across various domains."
+time = "22 March 2025"
+venue = "Digital University Kerala, Thiruvananthapuram"
+image = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Open_Data_Days_2025_-_Kerala.png/500px-Open_Data_Days_2025_-_Kerala.png"
+link = "https://meta.wikimedia.org/wiki/WikiConference_Kerala_2024"
+
+[[events]]
+title = "Wikiconference Kerala 2024"
+description = "WikiConference Kerala is a initiative to support Wikimedia Ecosystem in Kerala and Malayalam Language"
+time = "28 December 2024"
+venue = "College of Climate Change and Environmental Science, KAU, Thrissur"
+image = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wiki_Conference_Kerala_2024_Vertical_Banner.svg/250px-Wiki_Conference_Kerala_2024_Vertical_Banner.svg.png"
+link = "https://meta.wikimedia.org/wiki/WikiConference_Kerala_2024"
+
+[[events]]
+title = "State of the Map Kerala 2024"
+description = "An event for mapping enthusiasts, OSM contributors, opendata enthusiasts to come together, share experiences, and collaborate."
+time = "16 - 17 November 2024"
+venue = "KVASU, Wayanad"
+image = "/Sotm_24.jpg"
+link = "https://kerala.stateofthemap.in"
+
+[[events]]
 title = "WikiConference Kerala"
 description = "WikiConference Kerala is an initiative to support Wikimedia Ecosystem in Kerala and Malayalam Language..."
 time = "23 Dec 2023"
