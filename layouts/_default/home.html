@@ -10,12 +10,25 @@
 <div class="container py-5 mt-3 ">
     <h1 class="py-3 ">Welcome to OpenDataKerala!</h1>
     <h5 class="fst-italic px-5"> - A community driven open data initiative for Kerala State in India</h5>
-      
+
   </div>
   {{ partial "banner.html" . }}
 </div>
-  
+
 {{ partial "about.html" . }}
+
+<section class="container py-3 mt-2">
+    <div class="card w-50 mx-auto">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-bg-success p-3">LSG Elections 2025</h5>
+            <p class="card-text flex-grow-1">Visualize election results</p>
+            <div class="mt-auto">
+                <a href="https://opendatakerala.org/LSG2025/" target="_blank" class="btn btn-info me-2 mb-2">Visit Page</a>
+                <a href="https://github.com/opendatakerala/LSG2025" target="_blank" class="btn btn-info mb-2">Project Link</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="container py-3 mt-2">
   <a class="anchor-link" href="#projects" aria-label="Link to this section: Projects"></a>
