@@ -1,8 +1,8 @@
 visible = true
-expiry = "2025-11-18T00:00:00+05:30"
-title = "State of the Map Kerala 2025"
-background = "sotm_25.jpg"
-register_url = "https://app.makemypass.com/event/sotm-kerala-2025"
+expiry = "2025-12-22T00:00:00+05:30"
+title = "Wikiconference Kerala 2025"
+background = "wck25.jpg"
+register_url = "https://app.makemypass.com/event/wiki-conference-kerala-2025"
 register_text = "Register"
-readmore_url = "/post/2025/11/01/sotm2025/"
+readmore_url = "/post/2025/12/10/wck2025/"
 readmore_text = "Read More..."
