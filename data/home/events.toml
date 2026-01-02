@@ -1,4 +1,13 @@
 [[events]]
+title = "Wikiconference Kerala 2025"
+description = "WikiConference Kerala is a initiative to support Wikimedia Ecosystem in Kerala and Malayalam Language"
+time = "20 December 2025"
+venue = "Kerala Institute of Local Administration (KILA), Mulagunnathukavu Thrissur"
+image = "/wck25.jpg"
+link = "https://meta.wikimedia.org/wiki/WikiConference_Kerala_2025"
+
+
+[[events]]
 title = "State of the Map Kerala 2025"
 description = "An event for mapping enthusiasts, OSM contributors, opendata enthusiasts to come together, share experiences, and collaborate."
 time = "15 -- 16 November 2025"
