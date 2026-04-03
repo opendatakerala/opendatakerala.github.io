@@ -48,7 +48,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install theme
-        run: mkdir -p themes/geekblog && curl -L https://github.com/thegeeklab/hugo-geekblog/releases/latest/download/hugo-geekblog.tar.gz | tar -xz -C themes/geekblog/ --strip-components=1
+        run: sh setup.sh
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
