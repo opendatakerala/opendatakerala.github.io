@@ -1,4 +1,10 @@
 [[projects]]
+title = "LSG Elections 2025"
+description = "LSGD Open Geo Portal of Kerala State."
+visit_page = "https://opendatakerala.org/LSG2025/"
+project_link = "https://github.com/opendatakerala/LSG2025"
+
+[[projects]]
 title = "Map Kerala"
 description = "LSGD Open Geo Portal of Kerala State."
 blog_post = "/post/2021/11/01/map-kerala-launched/"
