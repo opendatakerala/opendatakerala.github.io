@@ -1,5 +1,5 @@
 ---
-title: "Sruthi Chandran electad as the Debian Project Leader"
+title: "Sruthi Chandran elected as the Debian Project Leader"
 date: 2026-04-21T00:37:02+05:30
 draft: false
 
@@ -25,8 +25,11 @@ Sruthi Chandran hailing from Kannur, Kerala  was a librarian at TCS who later jo
 
 She started contributing to Debian from 2016 and became an official member (Debian Developer) in 2018. Before becoming DPL, she was part of Debian Community team which mediates when there are conflicts among developers, DebConf committee, which provides guidance for organizing DebConf around the world every year and Debian Outreach team, which works on bringing new contributors to Debian.
 
+Sruthi had a vital role in bringing the annual Debian conference, DebConf to India in year 2023.  She was also the chief organizer of the two week long international event hosted at Infopark, Kochi. The event had over 200 attendees from around the world.
 
-Being a Free and Open Source Software advocate and Communicator, she led sessions in various national as well as international events and conferences and is a widely known person in the Free software community. Through these events she inspired many women to contribute to FOSS projects 
+Being a Free and Open Source Software advocate and Communicator, she led sessions in various national as well as international events and conferences and is a widely known person in the Free software community. Through these events she inspired many women to contribute to FOSS projects.
+
+Along with FOSS contributions, she is also an active contributor of 
 
 ------------------------------------------
 _News matter prepared by Debian contributors_
