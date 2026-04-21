@@ -7,7 +7,7 @@ draft: false
 
 authors: ["Athul R T"]
 
-tags: ["OpenData","OpenDataKerala","debian", "fsci"]
+tags: ["OpenData","OpenDataKerala","debian", "FSCI","KeralaFOSS"]
 
 geekblogToC: 3
 
@@ -29,7 +29,7 @@ Sruthi had a vital role in bringing the annual Debian conference, DebConf to Ind
 
 Being a Free and Open Source Software advocate and Communicator, she led sessions in various national as well as international events and conferences and is a widely known person in the Free software community. Through these events she inspired many women to contribute to FOSS projects.
 
-Along with FOSS contributions, she is also an active contributor of 
+Along with FOSS contributions, she is also an active contributor of Opendata initiatives in Kerala. She became an inspiration not only for the Kerala FOSS ecosystem, but also for diverse communities worldwide, including women contributors.
 
 ------------------------------------------
 _News matter prepared by Debian contributors_
